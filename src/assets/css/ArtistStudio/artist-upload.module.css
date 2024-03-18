@@ -1,7 +1,10 @@
-.upload-form {
 
-}
 .upload-form > .form-control {
     border: grey;
     background: transparent !important;
+}
+ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
