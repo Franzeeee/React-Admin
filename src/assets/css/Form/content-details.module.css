@@ -1,0 +1,56 @@
+*::after, *::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.card {
+    background-color: #100e0e !important;
+    padding: 1rem;
+    border-radius: 10px;
+    max-height: 395px;
+    margin-bottom: 10px;
+}
+.cardHeader {
+    background-color: #100e0e !important;
+    margin-bottom: 10px;
+
+}
+.content {
+    width: 100%;
+    padding: 10px !important;
+    background-color: #7d7c7c4d;
+    display: grid;
+    grid-template-columns: 25px 1fr 20px;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 5px;
+}
+.content input[type="text"]{
+    max-height: 30px;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    border: 1px dashed red;
+    border-radius: 2px;
+    margin-top: -3px;
+}
+.content .secondRow {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.content svg {
+    font-size: 1.2rem !important;
+    color: rgb(226, 17, 17);
+    cursor: pointer;
+    margin-top: 2px;
+
+}
+.content .secondRow .select-menu {
+    background-color: red !important;
+}
+.title {
+    user-select: none;
+    cursor: pointer;
+}

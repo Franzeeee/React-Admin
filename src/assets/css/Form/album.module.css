@@ -1,0 +1,91 @@
+*::after, *::before, *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    margin: 0;
+}
+.card {
+    background-color: #100e0e !important;
+    padding: 1rem;
+    border-radius: 10px;
+    max-height: 395px;
+    margin-bottom: 10px;
+}
+.cardHeader {
+    background-color: #100e0e !important;
+    margin-bottom: 10px;
+
+}
+.album-details {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-column-gap: 10px;
+    color: white;
+}
+.album-details img {
+    width: 100%;
+    max-width: 100px;
+}
+.album-details span {
+    font-size: 1rem;
+    font-weight: 600 !important;
+}
+.details-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.tracks {
+    padding-block: 10px;
+    background-color: transparent;
+}
+.tracks .music {
+    padding: 10px;
+    background-color: #28282852;
+    color: white;
+}
+.music table {
+    width: 100% !important;
+}
+.music th {
+    font-weight: 500;
+    font-size: .8rem;
+}
+.music table th:nth-child(4) {
+    max-width: 10px; /* Adjust the max-width value as needed */
+}
+.music table th:first-child {
+    max-width: 10px !important; /* Adjust the max-width value as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+
+}
+.music table tr {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.music table td {
+    font-size: .9rem;
+    padding-block: 10px;
+}
+.headerTable {
+    border-bottom: 1px solid red !important;
+}
+.submit {
+    background-color: transparent !important;
+    color: white !important;
+    border: 1px solid red;
+    padding: 5px 15px;
+    border-radius: 5px;
+    width: 100%;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.submit:hover {
+    background-color: #dc1919 !important;
+}
